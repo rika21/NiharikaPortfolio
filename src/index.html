@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Niharika Portfolio</title>
+</head>
+<body class="bg-portfolio-black flex flex-col md:gap-10 items-center font-outfit">
+    <!-- section 1 profile and Experience -->
+    <section class="flex flex-col md:flex-row md:gap-2 mt-10 mx-4 md:mx-10">
+        <!-- profile pic; name; links; -->
+        <section class="flex flex-col items-center gap-4 md:grow-0 md:shrink-0 md:basis-[40%]">
+            <!-- Profile Picture -->
+            <img src="../public/images/profile.jpg" alt="" class="rounded-full aspect-square object-cover smallest-screen:max-sm:w-2/5 md:w-1/2 lg:w-1/2 xl:w-1/2">
+            <!-- Name and links -->
+            <div class="flex flex-col gap-2">
+                <!-- Name -->
+                <p class="text-center font-bold text-portfolio-gray text-lg md:text-base lg:text-xl xl:text-3xl">Niharika Shreeram</p>
+                <!-- icons -->
+                <div class="flex flex-row gap-1 items-center justify-center">
+                    <a href="tel:+91-9480433426" target="_blank" rel="noopener noreferrer"><img src="../public/images/telephone-fill.svg" alt="Tel" class="custom-icons md:w-[20px] lg:w-[30px] xl:w-[35px]"></a>
+                    <a href="mailto:niharikags97@gmail.com" target="_blank" rel="noopener noreferrer"><img src="../public/images/envelope-fill.svg" alt="Mail" class="custom-icons md:w-[20px] lg:w-[30px] xl:w-[35px]"></a>
+                    <a href="https://www.linkedin.com/in/niharika-g-s-401938143/" target="_blank" rel="noopener noreferrer"><img src="../public/images/linkedin.svg" alt="In" class="custom-icons md:w-[20px] lg:w-[30px] xl:w-[35px]"></a>
+                    <a href="https://github.com/rika21" target="_blank" rel="noopener noreferrer"><img src="../public/images/github.svg" alt="git" class="custom-icons lg:w-[30px] xl:w-[35px]"></a>
+                </div>
+            </div>
+        </section>
+        <!-- Hi there!; Experience -->
+        <section class="flex flex-col md:flex-row md:absolute md:right-[35%] md:top-[12%] md:grow-0 md:shrink-0 md:basis-[60%] mx-4 md:m-0">
+            <!-- Hi there! -->
+            <p class="text-xl md:text-2xl lg:text-4xl xl:text-5xl text-center my-8 md:my-5 text-cyan-600">Hi there!</p>
+            <!-- Experience -->
+            <p class="text-portfolio-gray text-3xl mb-3 md:text-base text-center md:hidden">
+                Crafting seamless digital experiences.
+            </p>
+        </section>
+        <!-- <section class="flex md:items-center md:justify-center md:grow-0 md:shrink-0 md:basis-[60%]">
+            <div class="text-white">Hi there!</div>
+        </section> -->
+    </section>
+    <!-- Only when md and above -->
+    <section>
+        <p class="md:text-portfolio-gray md:text-3xl lg:text-4xl xl:text-5xl md:text-center md:mt-10 smallest-screen:max-md:hidden">
+            Crafting seamless digital experiences.
+        </p>
+    </section>
+
+    <!-- skills; experience; education; extras; -->
+    <section class="flex flex-col mx-4 xl:mr-16 gap-8 mb-10">
+        <!-- skills -->
+        <section class="mt-8 md:mb-8 mb-2">
+            <ul class="flex flex-row justify-center flex-wrap gap-4 px-2 text-portfolio-gray lg:text-xl xl:text-3xl">
+                <li class="custom-list-style">Python</li>
+                <li class="custom-list-style">Django</li>
+                <li class="custom-list-style">SQL</li>
+                <li class="custom-list-style">HTML</li>
+                <li class="custom-list-style">CSS</li>
+                <li class="custom-list-style">Tailwind</li>
+                <li class="custom-list-style">JavaScript</li>
+                <li class="custom-list-style">React</li>
+                <li class="custom-list-style">Git</li>
+            </ul>
+        </section>
+        <!-- experience -->
+        <section class="flex flex-col md:flex-row md:gap-8 md:mx-10 md:grow-0">
+            <!-- header -->
+            <div class="border-r-[1px] border-cyan-600 smallest-screen:max-sm:border-hidden md:basis-1/4">
+                <p class="text-portfolio-gray text-2xl mb-4 md:text-center lg:text-3xl xl:text-4xl">Experience</p>
+            </div>
+            <!-- content -->
+            <div class="flex flex-col md:basis-3/4">
+                <div>
+                    <div class="text-cyan-600 lg:text-xl xl:text-3xl">AI Accelerated Full Stack Developer Cohort at 100xEngineers</div>
+                    <em class="text-portfolio-gray lg:text-lg xl:text-2xl">August 2023 - current</em>
+                    <div class="mt-2">
+                        <ul class="list-outside list-none mx-4 md:m-0 text-portfolio-gray text-sm lg:text-base xl:text-xl">
+                            <li class="before:content-['-']"> Developed a resume with a responsive design that leverages Tailwind CSS features.</li>
+                            <li class="before:content-['-']"> Developed a user-friendly real-time chat app with custom commands and emoji replacement functions using HTML, CSS, and JavaScript. Utilized Node.js and Socket.io for the backend and deployed on Netlify.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-b-[1px] self-center w-1/4 border-cyan-600 my-4 md:border-hidden"></div>
+                <!-- content -->
+                <div>
+                    <div class="text-cyan-600 lg:text-xl xl:text-3xl">Junior Full Stack Developer at GALE Partners, Bengaluru</div>
+                    <em class="text-portfolio-gray lg:text-lg xl:text-2xl">February 2022 - July 2023</em>
+                    <div class="mt-2">
+                        <ul class="list-none list-outside mx-4 md:m-0 text-portfolio-gray text-sm lg:text-base xl:text-xl">
+                            <li class="before:content-['-']"> Contributed to the Alchemy (now Dash 2.0) project, building client dashboard websites for Lumos, Carson, Dropbox, and Wells, visualizing ad and campaign performance.</li>
+                            <li class="before:content-['-']"> Revamped customer data by creating customized tables, employing SQL queries to efficiently retrieve and populate data based on specified dimensions, metrics, and derived metrics.</li>
+                            <li class="before:content-['-']"> Debugged and resolved airflow-related issues, automating data pipeline processes.</li>
+                            <li class="before:content-['-']"> Proficiently troubleshooted data inconsistencies by reviewing and analyzing SQL queries.</li>
+                            <li class="before:content-['-']"> Engineered a Python script using Django to facilitate user provisioning, granting seamless access to analytics and dashboards.</li>
+                            <li class="before:content-['-']"> Played an active role in developing the in-house product "Dash 2.0," driving UI enhancements and improving user-friendliness.</li>
+                            <li class="before:content-['-']"> Conducted comprehensive data consistency testing on Snowflake, utilizing Funnel for data extraction from multiple sources.</li>
+                            <li class="before:content-['-']"> Contributed to front-end development tasks using JavaScript and React, crafting responsive cards and tables.</li>
+                            <li class="before:content-['-']"> Acquired experience in code deployment and synchronization across multiple environments.</li>
+                            <li class="before:content-['-']"> Gained proficiency in Docker, Postman, Snowflake, and Funnel, thereby expanding toolset expertise.</li>
+                            <li class="before:content-['-']"> Utilized Google Analytics to efficiently build dashboards for clients like Becker and DeVry.</li>
+                            <li class="before:content-['-']"> Implemented measures to address CodeQl Scanning Issues, mitigating risks such as Cross-Site Scripting (XSS) and Improper Error Handling through input sanitization.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <div class="border-b-[1px] self-center w-1/4 border-cyan-600 md:border-hidden"></div>
+        <!-- education -->
+        <section class="flex flex-col md:flex-row md:items-center md:gap-8 md:mx-10">
+            <!-- header -->
+            <div class="border-r-[1px] border-cyan-600 smallest-screen:max-sm:border-hidden md:basis-1/4">
+                <p class="text-portfolio-gray text-2xl mb-4 md:text-center lg:text-3xl xl:text-4xl">Education</p>
+            </div>
+            <div class="md:basis-3/4">
+                <p class="text-cyan-600 lg:text-xl xl:text-3xl">Bachelor of Engineering in Electronics, VTU, Bengaluru</p>
+            </div>
+        </section>
+    </section>
+
+</html>
